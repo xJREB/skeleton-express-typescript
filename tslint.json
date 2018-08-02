@@ -1,0 +1,35 @@
+{
+    "extends": "tslint:recommended",
+    "rulesDirectory": [],
+    "rules": {
+        "arrow-parens": true,
+        "no-consecutive-blank-lines": false,
+        "callable-types": false,
+        "object-literal-sort-keys": false,
+        "no-var-requires": false,
+        "max-line-length": false,
+        "max-classes-per-file": false,
+        "class-name": false,
+        "interface-name": false,
+        "indent": [
+            true,
+            "spaces",
+            4
+        ],
+        "quotemark": [
+            true,
+            "double"
+        ],
+        "space-before-function-paren": false,
+        "trailing-comma": [
+            false,
+            {
+                "multiline": {
+                    "objects": "never",
+                    "arrays": "never",
+                    "functions": "never"
+                }
+            }
+        ]
+    }
+}
